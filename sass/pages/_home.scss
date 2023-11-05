@@ -1,0 +1,209 @@
+@use "../abstracts" as a;
+
+// .box {
+//   height: 181px;
+// }
+
+#details {
+  background-color: #A39E93;
+  padding-bottom: 0px;
+  // height: 864px;
+}
+
+#details h3 {
+  display: block;
+}
+
+#details h3 {
+  font-family: a.$heading-font-family;
+  font-size: 50px;
+  margin-top: 20px;
+  padding-top: 40px;
+  margin-left: 20px;
+  font-weight: 400;
+}
+
+#video {
+  color: #000;
+  height: 700px;
+}
+
+#x-ray-details {
+  background-color: a.$box-color;
+}
+
+#x-ray {
+  background-color: a.$box-color;
+}
+
+#x-ray h3 {
+  font-family: a.$heading-font-family;
+  font-size: 50px;
+  // margin-top: 20px;
+  padding-top: 50px;
+  margin-bottom: 40px;
+  margin-left: 20px;
+  font-weight: 400;
+}
+
+#x-ray p {
+  text-align: left;
+  margin-left: 20px;
+}
+
+#details-info p {
+  text-align: left;
+  margin-left: 20px;
+  
+}
+
+#details-info2 p {
+  text-align: left;
+  margin-left: 20px;
+  
+}
+
+#details-image {
+  margin-top: -60px;
+  // height: 360px;
+}
+
+#final-text {
+  background-color: #A39E93;
+}
+
+#final-text p {
+  text-align: left;
+  margin-left: 20px;
+}
+
+
+@media screen and (min-width: 768px) {
+
+  // .box {
+  //   height: 420px;
+  // }
+
+  #details h3 {
+    display: block;
+    text-align: left;
+    margin-bottom: 0px;
+  }
+
+  #details-image {
+    margin-bottom: 30px;
+    // height: 720px;
+  }
+
+  #details-info p {
+    font-size: a.$body-font-size;
+    font-weight: normal;
+    line-height: 40px;
+    
+  }
+
+  #details-info2 p {
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    // margin-top: 30px;
+    font-size: a.$body-font-size;
+    line-height: 40px;
+  }
+
+  #x-ray h3 {
+    display: block;
+    text-align: left;
+  }
+
+  #x-ray p {
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    // margin-top: 30px;
+    font-size: a.$body-font-size;
+    line-height: 40px;
+  }
+
+  #final-text p {
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    font-size: a.$body-font-size;
+    line-height: 40px;
+  }
+  
+}
+
+@media screen and (min-width: 1200px) {
+
+  .burning-passion {
+    font-size: a.$heading-hero-font-size;
+  }
+
+  // .box {
+  //   height: 420px;
+  // }
+
+  #details h3 {
+    display: block;
+    text-align: left;
+  }
+
+  #details-image {
+    display: grid;
+    grid-row: 2/3;
+  }
+
+  #details-info {
+    display: grid;
+    grid-row: 2/3;
+  }
+
+  #details-info p {
+    text-align: left;
+    margin-right: 15px;
+    margin-left: 15px;
+    // margin-top: 25px;
+    font-size: 25px;
+    line-height: 40px;
+  }
+
+  #details-info2 p {
+    text-align: left;
+    margin-right: 15px;
+    margin-left: 15px;
+    // margin-top: 25px;
+    font-size: 25px;
+    line-height: 40px;
+  }
+
+  #details-info > p:first-child {
+    margin-top: 50px;
+    margin-bottom: 0;
+  }
+
+  #x-ray h3 {
+    display: block;
+    text-align: left;
+  }
+
+  #x-ray p {
+    text-align: left;
+    margin-right: 15px;
+    margin-left: 15px;
+    // margin-top: 25px;
+    font-size: 25px;
+    line-height: 40px;
+  }
+
+  #final-text p {
+    text-align: left;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 40px;
+    font-size: 25px;
+    line-height: 40px;
+  }
+}

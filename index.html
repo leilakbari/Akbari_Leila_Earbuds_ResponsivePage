@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- in mobile set initial zoom level of page to 100%, set site size to equal device width not a larger canvas that is shrunk down-->
+    <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+    <title>Leila Akbari</title>
+    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    
+    <link href="css/grid.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <h1 class="hidden">Earbuds</h1>
+    <div id="sticky-nav-con">
+      <header id="main-header" class="grid-con">
+        <div class="col-start-1 col-end-2 m-col-start-1 m-col-end-2">
+          <a href="index.html"
+            ><img src="images/Akbari_Leila_Logo.svg" id="logo"
+          /></a>
+        </div>
+        <nav
+          id="main-nav"
+          class="col-start-4 col-end-5 m-col-start-12 m-col-end-13"
+        >
+          <ul class="menu">
+            <li><a class="menuItem" href="#">HOME</a></li>
+            <li><a class="menuItem" href="#">ABOUT Me</a></li>
+            <li><a class="menuItem" href="#">PROJECTS </a></li>
+            <li><a class="menuItem" href="#">CONTACT Me</a></li>
+          </ul>
+          <button class="hamburger"></button>
+        </nav>
+      </header>
+    </div>
+    <main>
+      <section class="grid-con" id="hero">
+        <img class="col-span-full" id="hero-img" src="images/style-frame6.jpg" alt="earbuds-case-pic">
+        <h2 class="hidden">Hero Section</h2>
+        <div class="col-span-full" id="hero-text">
+          <h3>Earbuds Project</h3>
+          <!-- <p>This is where the scrolling effect will be placed.</p> -->
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac posuere nunc. Vestibulum tempor consectetur metus, quis luctus nulla. Curabitur eget orci at sem imperdiet dictum a vel magna. Nunc accumsan scelerisque lacus, in consequat augue. Mauris blandit neque in suscipit venenatis. Integer tincidunt venenatis purus, ac porttitor nunc convallis at. Pellentesque odio libero, commodo vitae eros id, gravida vestibulum massa. In turpis massa, iaculis nec eros id, faucibus eleifend felis. Praesent elementum sit amet tortor a semper. Nulla tincidunt maximus commodo. Etiam interdum ipsum a vulputate convallis. Sed aliquam interdum ipsum, eget malesuada ligula finibus nec. Curabitur vel nisl eget ante tincidunt rhoncus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean blandit finibus commodo.</p>
+        </div>
+
+      </section>
+
+      <section id="video" class="box grid-con">
+        <h2 class="hidden">Earbuds Video</h2>
+        <div class="col-span-full">
+          <h3>The video of the earbuds will place here.</h3>
+        </div>
+      </section>
+
+      <section id="details" class="grid-con">
+        <h2 class="hidden">About Me</h2>
+        <div class="col-span-full m-col-start-2 m-col-end-12 col-span-full l-col-start-1 l-col-end-7">
+          <h3>AR Model Viewer</h3>
+          <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac posuere nunc. 
+            Vestibulum tempor consectetur metus, quis luctus nulla. Curabitur eget orci at sem imperdiet dictum a vel magna. <br /><br />
+            Nunc accumsan scelerisque lacus, in consequat augue. Mauris blandit neque in suscipit venenatis. Integer tincidunt 
+            venenatis purus, ac porttitor nunc convallis at. Pellentesque odio libero, 
+            commodo vitae eros id, gravida vestibulum massa.</p> -->
+        </div>
+
+        <div id="details-image" class="col-span-full m-col-start-2 m-col-end-12 l-col-start-7 l-col-end-13">
+          <img src="images/style-frame7.jpg" id="" alt="earbus-closeup-pic">
+        </div>
+
+        <div
+          id="details-info"
+          class="m-col-start-2 m-col-end-12 col-span-full l-col-start-1 l-col-end-7">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac posuere nunc. 
+            Vestibulum tempor consectetur metus, quis luctus nulla. Curabitur eget orci at sem imperdiet dictum a vel magna.
+          </p>
+        </div>
+
+        <div
+          id="details-info2"
+          class="col-span-full">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac posuere nunc. 
+          Vestibulum tempor consectetur metus, quis luctus nulla. Curabitur eget orci at sem imperdiet dictum a vel magna.
+          Nunc accumsan scelerisque lacus, in consequat augue. Mauris blandit neque in suscipit venenatis. Integer tincidunt 
+          venenatis purus, ac porttitor nunc convallis at. Pellentesque odio libero, 
+          commodo vitae eros id, gravida vestibulum massa.</p>
+          
+        </div>
+        
+      </section>
+
+      <section id="interactive-text" class="grid-con">
+        <div class="col-span-full">
+          <model-viewer id="model" src="model/Akbari_Leila_Earbuds(one)_AR.gltf" 
+        ar ar-modes="webxr scene-viewer quick-look" 
+        camera-controls poster="images/poster.webp" shadow-intensity="1" 
+        autoplay camera-orbit="-293.7deg 54.83deg 4.401m" field-of-view="30deg">
+
+        <button class="Hotspot" slot="hotspot-1" data-surface="11 0 926 2826 2825 0.109 0.844 0.047" data-visibility-attribute="visible">
+            <div class="HotspotAnnotation">
+              <h2>Comfortable Rubber</h2>
+              <p>Comfortable Rubber is a silicone material that helps to keep the earbuds in the ear and at the same time it feels very comfortable and prevents them from falling.</p>
+            </div>
+          </button>
+          
+          <button class="Hotspot" slot="hotspot-2" data-surface="25 0 0 2 1 0.244 0.392 0.364" data-visibility-attribute="visible">
+            <div class="HotspotAnnotation">
+              <h2>Silver Plating</h2>
+              <p>Silver Plating is a shiny Silver platet surface that places around the earbuds and protects the earbuds body from damage.</p>
+            </div>
+          </button>
+          
+          <button class="Hotspot" slot="hotspot-3" data-surface="18 0 2135 2134 2133 0.066 0.239 0.694" data-visibility-attribute="visible">
+            <div class="HotspotAnnotation">
+              <h2>Green Body</h2>
+              <p>Green Body is the other part of the earbuds surface which the color reminds us of nature. Because nature is the first source for hearing beautiful and incredible sounds.</p>
+            </div>
+          </button>
+          
+          <button class="Hotspot" slot="hotspot-4" data-surface="19 0 1 2 0 0.400 0.292 0.308" data-visibility-attribute="visible">
+            <div class="HotspotAnnotation">
+              <h2>Speaker</h2>
+              <p>Speaker part places around the earbuds surface and with its high technology, it creates a three-dimensional listening experience.</p>
+            </div>
+          </button>
+          
+          <button class="Hotspot" slot="hotspot-5" data-surface="1 0 198 197 196 0.353 0.180 0.466" data-visibility-attribute="visible">
+            <div class="HotspotAnnotation">
+              <h2>Charging Port</h2>
+              <p>Charging Port is a part of earbuds that charges them by placing them in their box.</p>
+            </div>
+          </button>
+          
+          <button class="Hotspot" slot="hotspot-6" data-surface="14 0 5 4 0 0.900 0.100 0.001" data-visibility-attribute="visible">
+            <div class="HotspotAnnotation">
+              <h2>Finger Holder</h2>
+              <p>Finger Holder is at the upper part of the earbuds, which helps to hold and place them in the ear more easily with its indentation.</p>
+            </div>
+          </button>
+          
+          <div class="progress-bar hide" slot="progress-bar">
+            <div class="update-bar"></div>
+          </div>
+          
+          <button slot="ar-button" id="ar-button">
+            View in your space
+          </button>
+          
+          <div id="ar-prompt">
+            <img src="images/ar_hand_prompt.png">
+          </div>
+
+        </model-viewer>
+        </div>
+      </section>
+
+      <section id="x-ray" class="grid-con">
+        <h2 class="hidden">About Me</h2>
+        <div class="col-span-full">
+          <h3>X-Ray revealer</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac posuere nunc. 
+            Vestibulum tempor consectetur metus, quis luctus nulla. Curabitur eget orci at sem imperdiet dictum a vel magna. <br /><br />
+            Nunc accumsan scelerisque lacus, in consequat augue. Mauris blandit neque in suscipit venenatis. Integer tincidunt 
+            venenatis purus, ac porttitor nunc convallis at. Pellentesque odio libero, 
+            commodo vitae eros id, gravida vestibulum massa.</p>
+        </div>
+      </section>
+
+      <div class="grid-con" id="x-ray-details">
+        <section class="col-span-full">
+            <h2 class="hidden">X-Ray revealer</h2>
+
+            <div id="mobile-tablet-view">
+                <img src="images/earbud-x-ray.jpg" alt="x-ray earbuds">
+                <img src="images/earbud.jpg" alt="regular view of earbuds">
+            </div>
+
+            <div id="outerShell">
+                <div id="imageCon">
+                    <!-- x-ray version -->
+                    <div class="slideImage image-right"></div>
+                    <!-- rendered version -->
+                    <div class="slideImage image-left"></div>
+                    <!-- drag bar -->
+                    <div class="slideImage image-drag"></div>
+                </div>
+            </div>
+        </section>
+     </div>
+
+     <section id="final-text" class="grid-con">
+      <h2 class="hidden">About Me</h2>
+      <div class="col-span-full">
+        <h3 class="hidden">Thanks for your time</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac posuere nunc. 
+          Vestibulum tempor consectetur metus, quis luctus nulla. Curabitur eget orci at sem imperdiet dictum a vel magna.
+          Nunc accumsan scelerisque lacus, in consequat augue. Mauris blandit neque in suscipit venenatis.</p>
+      </div>
+      <img class="col-span-full" id="final-img" src="images/final-img.jpg" alt="earbuds-with-closing-case-pic">
+    </section>
+
+    </main>
+
+    <footer id="footer-con" class="grid-con">
+      <div class="col-span-full">
+        <!-- <h3 class="hidden">Site Map</h3> -->
+        <div class="col-1">
+          <h2 class="hidden">Site Map</h2>
+          <a href="#">Home</a>
+          <a href="#">Projects</a>
+          <a href="#">Contact Me</a>
+          <a href="#">About Me</a>
+        </div>
+      </div>  
+    </footer>
+
+    <!-- main library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <!-- ScrollTrigger plugin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <!-- Text plugin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/TextPlugin.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script
+      type="module"
+      src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.0.1/model-viewer.min.js"
+    ></script>
+
+    <!-- our main js file -->
+    <script src="js/main.js"></script>
+    <script src="js/gsapcodes.js"></script>
+  </body>
+</html>

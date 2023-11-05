@@ -1,0 +1,31 @@
+@use "fonts";
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+$primary-color: #030422;
+$secondary-color: #CECDCD;
+$accent-color: #A39E93;
+$body-text-color: #333;
+$grey-color: #e4e4e4;
+$box-color: #A39E93;
+$heading-font-family: 'Montserrat', sans-serif;
+$heading-hero-font-size: 150px;
+$strategy-font-size: 90px;
+$tablet-heading-hero-font-size: 100px;
+$tablet-body-font-size: 40px;
+$mobile-heading-hero-font-size: 65px;
+$body-font-family: 'Montserrat', sans-serif;
+$body-font-size: 25px;
+$mobile-body-font-size: 20px;
+$mobile-about-heading-font-size: 38px;
+$base-font-size: 18px;
+$base-font-weight: 400;
+$footer-heading-font-size: 35px;

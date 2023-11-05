@@ -1,0 +1,38 @@
+@use "../abstracts" as a;
+
+#hero-image {
+  visibility: hidden;
+}
+
+#about-me-image {
+  overflow: hidden;
+}
+
+#hero {
+  background-color: a.$box-color;
+  height: 1300px;
+}
+
+#hero-img {
+  margin-top: 20px;
+}
+
+#hero-text h3 {
+  font-family: a.$heading-font-family;
+  font-weight: normal;
+  color: a.$primary-color;
+  font-size: 80px;
+  margin-top: 40px;
+  margin-left: 20px;
+  font-weight: 500;
+}
+
+#hero-text p {
+  top: 50%;
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 30px;
+  font-size: 25px;
+  line-height: 40px;
+}

@@ -1,20 +1,22 @@
-# Dahilan_KwencyMaye_Portfolio
+# Akbari_Leila_Earbuds_ResponsivePage
 
-Welcome to my GitHub profile! My name is Kwency Dahilan and I am a graduating student from the Interactive Media Design program, passionate about creating user-friendly and visually appealing digital experiences. With a strong foundation in design principles and a growing skill set in front-end development, I aspire to become a front-end developer who specializes in crafting exceptional User Interfaces (UI) and User Experiences (UX).
+Welcome to my Earbuds project. This project showcases promotional website for a pair of 3D earbuds I designed with the C4D. The responsive website is built using HTML, CSS, SASS, and JavaScript.
 
-What I Bring to the Table
-
-- Design Sensibility: I have a keen eye for aesthetics and an understanding of user-centered design principles. I believe that design should not only be visually pleasing but also highly functional.
-
-- Technical Proficiency: Through my education and personal projects, I have gained proficiency in HTML, CSS, and JavaScript, enabling me to translate design concepts into interactive and responsive web interfaces.
-
-- User-Centric Approach: I am passionate about creating digital solutions that prioritize the needs and preferences of the end-users. I conduct thorough user research and usability testing to ensure that the products I design are intuitive and user-friendly.
-
-- Collaborative Spirit: I enjoy collaborating with cross-functional teams, including developers, product managers, and fellow designers, to create cohesive and impactful digital products. I believe that teamwork and open communication are key to success in any project.
+## Table of Contents
+1. Installation
+2. Usage
+3. Contributing
+4. Credits
+5. License
 
 ## Installation
+The 3D earbuds were originally designed in Cinema 4D and integrated with interactive hotspots using modelviewer.dev. The project uses HTML for content, CSS and SASS for responsive styling, and JavaScript to display detailed information about each component. The responsive design ensures an optimal viewing experience on desktops (1920 and 1200 ), tablets (768), and mobile (320) devices. 
 
-No installation is needed for this site. HTMLs will work on any browsers.
+## Usage
+
+Click and rotate: Interact with the 3D model by clicking on the screen to rotate and explore the exterior of the earbuds in 3D.
+Hotspots: Hover your mouse on each hotspot to reveal detailed descriptions of different earbuds components.
+
 
 ## Contributing
 
@@ -24,10 +26,15 @@ No installation is needed for this site. HTMLs will work on any browsers.
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request :D
 
+
 ## Credits
 
-Kwency Maye Dahilan
+This project was created by Leila Akbari.
 
 ## License
 
-MIT
+This project is licensed under the MIT License.
+
+- - -
+© Fall-2023  Leila Akbari
+
